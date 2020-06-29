@@ -1,0 +1,631 @@
+body{
+	background-image: url("Background.jpg");
+	background-size: 1380px 700px;
+}
+
+.backgroundDiv img{
+	width: 1380px;
+	height: 700px;
+}
+
+/*Home Page*/
+#form{
+	background: #331a00;
+	margin-top: 1%;
+	margin-right: 3%;
+	width: 325px;
+	height: 650px;
+	opacity: 0.8;
+	float: right;
+	overflow: scroll;
+}
+
+#bar{
+	border-bottom: 2px solid white;
+	width: 966px;
+	height: 100px;
+	float: top;
+	float: left;
+
+}
+
+#home{
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-family: calibri;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 5%;
+	opacity: 0.9;
+}
+
+#menu{
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;	
+	color: white;
+	font-family: calibri;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 2%;
+	opacity: 0.9;
+}
+
+#order{
+	float: left;
+	width: 150px;
+	height: 50px;
+	text-align: center;	
+	color: white;
+	font-family: calibri;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 4%;
+	opacity: 0.9;
+}
+
+#team{
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;	
+	color: white;
+	font-family: calibri;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 4%;
+	opacity: 0.9;
+}
+
+#contact{
+	float: left;
+	width: 150px;
+	height: 50px;
+	text-align: center;	
+	color: white;
+	font-family: calibri;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 4%;
+	opacity: 0.9;
+}
+
+a{
+	color: white;
+	text-align: center;
+	font-size: 18pt;
+	font-family: calibri;
+	text-decoration: none;
+	opacity: 0.9;
+}
+a:hover{
+	color: #ffc107;
+}
+
+#sign{
+	float: left;
+	width: 150px;
+	height: 50px;
+	text-align: center;	
+	color: white;
+	font-family: calibri;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 2%;
+	opacity: 0.9;
+}
+
+#logo{
+	margin-left: 15%;
+	width: 200px;
+	height: 150px;
+}
+
+#welcome{
+	width: 300px;
+	height: 100px;
+	margin-top: 5%;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16pt;
+	border-top: 2px solid white;
+	padding-top: 10%;
+}
+
+#about{
+	width: 270px;
+	height: 150px;
+	color: white;
+	text-align: center;
+	font-family: calibri;
+	font-size: 12pt;
+	margin-left: 5%;
+	font-style: italic;
+}
+
+#reserve{
+	width: 300px;
+	height: 600px;
+	color: white;
+	margin-left: 2%;
+	font-family: sans-serif;
+	font-size: 16pt;
+}
+
+input, select{
+	margin-left: 12%;
+	background: transparent;
+	font-size: 14pt;
+	color: white;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+select{
+	margin-left: 10%;
+}
+
+#members{
+	margin-left: 1%;
+	text-align: left;
+	font-size: 11pt;
+}
+
+option{
+	color:black;
+}
+
+#Advance{
+	margin-left: 4%;
+}
+
+#name{
+	margin-left: 8%;
+	text-align: left;
+	font-size: 11.5pt;
+}
+
+.submit{
+	margin-top: 10%;
+	width: 282px;
+	height: 40px;
+}
+
+#s_btn{
+	outline: none;
+	background: none;
+	color: #ccc;
+	width: 282px;
+	height: 40px;
+	border: 1px solid #e28d26;
+	font-size: 18pt;
+	border-radius: 20px;
+	transition: .6s;
+	overflow: hidden;
+}
+
+#lbtn:hover, #s_btn:hover{
+	background: #e28d26;
+	cursor: pointer;
+}
+
+#deals{
+	margin: 2%;
+	float: left;
+	background: #331a00;
+	opacity: 0.9;
+	width: 900px;
+	height: 520px; 
+}
+
+#f_deal, #s_deal{
+	float: left;
+	margin-left: 3%;
+	margin-top: 3%;
+	width: 400px;
+	height: 350px;
+	position: relative;
+	cursor: pointer;
+	border: 5px solid white;
+}
+
+#f_pic, #s_pic{
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+
+#f_deal:hover #over, #s_deal:hover #over2{
+	height: inherit;
+}
+
+#over, #over2{
+	width: inherit;
+	height: 00px;
+	position: absolute;
+	top: 0;
+	background: #ff980094;
+	opacity: 0.9;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.8s ease;
+}
+
+#of{
+	text-align: center;
+	font-size: 22pt;
+	font-family: calibri;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	border: 5px solid white;
+}
+
+
+/*Menu Page*/
+#menu_list{
+	background: #331a00;
+	margin-top: 1%;
+	margin-right: 3%;
+	width: 325px;
+	height: 650px;
+	opacity: 0.8;
+	float: right;
+}
+
+#list{
+	border-top: 2px solid white;
+	margin-top: 5%;
+}
+
+ul{
+	margin-top: 20%;
+	font-size: 18pt;
+	color: white;
+	font-family: verdana;
+}
+
+#menu_img{
+	width: 960px;
+	height: 530px;
+	background: #331a00;
+	float: left;
+	margin-top: 1%;
+	opacity: 0.9;
+}
+
+.beef, .chicken, .fish, .czb, .fzb, .broast{
+	margin-top: 5%;
+	margin-right: 0%;
+	float: left;
+	width: 300px;
+	height: 200px;
+	border-radius: 2px;
+	border: 5px solid white;
+	position: relative;
+	cursor: pointer; 
+}
+
+.beef:hover .beef-s, .chicken:hover .chicken-s, .fish:hover .fish-s, .czb:hover .czb-s, .fzb:hover .fzb-s, .broast:hover .broast-s{
+	height: 200px;
+}
+
+.beef img, .chicken img, .fish img, .czb img, .fzb img, .broast img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+
+.beef-s, .chicken-s, .fish-s, .czb-s, .fzb-s, .broast-s{
+	width: 300px;
+	height: 00px;
+	background: #ff980094;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.7s ease;
+}
+
+.beef-s h2, .chicken-s h2, .fish-s h2, .czb h2, .fzb h2, .broast h2{
+	color: white;
+	font-size: 30px;
+	border: 6px solid white;
+	padding: 10px 30px;
+}
+
+li{
+	margin-top: 5%;
+}
+
+li:hover{
+	color: #ffc107;
+}
+
+/*Sign Up Page*/
+#login{
+	background: #331a00;
+	margin-top: 1%;
+	margin-right: 3%;
+	width: 325px;
+	height: 650px;
+	opacity: 0.8;
+	float: right;
+}
+
+#login_form{
+	margin-top: 5%;
+	padding: 5%;
+	border-top: 2px solid white;
+	font-family: calibri;
+	font-size: 16pt;
+	color: #e28d26;
+}
+
+.email, .password{
+	border: 1px solid white;
+	width: 282px;
+	height: 40px;
+	background: white;
+	margin-top: 10%;
+}
+
+#em-png, #pswd-png{
+	width: 40px;
+	height: 40px;
+}
+
+#em, #pswd{
+	margin-left: 0%;
+	float: left;
+	text-align: left;
+	width: 230px;
+	height: 30px;
+	font-family: sans-serif;
+	font-size: 12pt;
+	padding: 2%;
+	border: 0px;
+	color: black;
+}
+
+#em-d, #pswd-d{
+	float: left;
+	width: 40px;
+	background: #e28d26;
+	height: 40px;
+}
+	
+.button_class{
+	margin-top: 10%;
+	width: 282px;
+	height: 40px;
+}
+
+#lbtn{
+	outline: none;
+	position: absolute;
+	background: none;
+	color: #ccc;
+	width: 282px;
+	height: 40px;
+	border: 1px solid #e28d26;
+	font-size: 18pt;
+	border-radius: 20px;
+	transition: .6s;
+	overflow: hidden;
+}
+
+.signup{
+	background: #331a00;
+	opacity: 0.8;
+	width: 350px;
+	height: 500px;
+	margin-left: 20%;
+	margin-top: 3%;
+	float: left;
+}
+
+.s_head{
+	background: #e28d26;
+	width: 350px;
+	height: 60px;
+	padding-top: 3%;
+	font-family: calibri;
+	font-size: 28pt;
+	text-align: center;
+	color: white;
+}
+
+#s_name{
+	background: none;
+	height: 20px;
+	width: 250px;
+	margin: 80px 35px 10px 45px;
+	text-align: left;
+	outline: none;
+	padding: 5px;
+	padding-left: 10px;
+	border:1px solid white;
+	font-size: 14pt;
+}
+
+#s_pswd, #s_confirm, #s_email{
+	background: none;
+	height: 20px;
+	width: 250px;
+	margin: 10px 35px 10px 45px;
+	text-align: left;
+	outline: none;
+	padding: 5px;
+	padding-left: 10px;
+	border:1px solid white;
+	font-size: 14pt;
+}
+
+.sbutton_class{
+	margin: 10px 35px 10px 45px;
+	width: 260px;
+	height: 40px;
+}
+
+#sbtn{
+	outline: none;
+	position: absolute;
+	background: none;
+	color: #ccc;
+	width: 260px;
+	height: 40px;
+	border: 1px solid #e28d26;
+	font-size: 18pt;
+	border-radius: 20px;
+	transition: .6s;
+	overflow: hidden;
+}
+
+#sbtn:hover{
+	background: #e28d26;
+	cursor: pointer;
+}
+
+/*Contact Us Page*/
+#otherways{
+	background: #331a00;
+	margin-top: 1%;
+	margin-right: 3%;
+	width: 325px;
+	height: 650px;
+	opacity: 0.8;
+	float: right;
+}
+
+#ways{
+	border-top: 2px solid white;
+	margin-top: 5%;
+}
+
+#detail{
+	text-align: center;
+	font-family: calibri;
+	color: #ccc;
+	font-style: italic;
+	font-size: 22pt;
+}
+
+.m_icon{
+	margin-left: 8%;
+	margin-top: 30%;
+	font-size: 20pt;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.wt_icon, .mail_icon, .fb_icon, .tw_icon{
+	margin-left: 8%;
+	margin-top: 5%;
+	font-size: 12pt;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.wt_icon:hover, .m_icon:hover, .mail_icon:hover, .fb_icon:hover, .tw_icon:hover{
+	color:#e28d26;
+}
+
+b{
+	text-align: left;
+	padding-left: 5%;
+	font-size: 12pt;
+	font-family: calibri;
+}
+
+.contact_us{
+	margin-top: 3%;
+	margin-left: 15%;
+	float: left;
+	background: #331a00;
+	opacity: 0.8;
+	width: 500px;
+	height: 500px;
+}
+
+#ct_head{
+	color: white;
+	font-size: 24pt;
+	font-family: calibri;
+	padding-top: 1%;
+	text-align: center;
+	background: #e28d26;
+	width: inherit;
+	height: 50px;
+}
+
+#nm{
+	font-size: 16pt;
+	color: white;
+	text-align: left;
+	margin-top: 20%;
+	margin-left: 50px;
+	padding-left: 10px;
+	width: 400px;
+	height: 40px;
+	background: #1d0f00;
+	border: none;
+	outline: none;
+}
+
+#eml{
+	font-size: 16pt;
+	color: white;
+	text-align: left;
+	margin-top: 1%;
+	margin-left: 50px;
+	padding-left: 10px;
+	width: 400px;
+	height: 40px;
+	background: #1d0f00;
+	border: none;
+	outline: none;
+}
+
+textarea{
+	font-family: calibri;
+	font-size: 16pt;
+	color: white;
+	text-align: left;
+	width: 400px;
+	height: 125px;
+	margin-top: 1%;
+	margin-left: 50px;
+	padding-left: 10px;
+	background: #1d0f00;
+	border:none;
+	outline: none;
+}
+
+#send{
+	text-align: center;
+	font-size: 16pt;
+	color: #ccc;
+	margin-top: 4%;
+	float: right;
+	width: 100px;
+	height: 40px;
+	margin-right: 40px;
+	background: none;
+	outline: none;
+	transition: 1s;
+	border: 1px solid #e28d26;
+}
+
+#send:hover{
+	background: #e28d26;
+}
